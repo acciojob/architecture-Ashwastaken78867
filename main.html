@@ -1,51 +1,46 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<style>
-		table {
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
             border-collapse: collapse;
             width: 100%;
         }
         th, td {
             border: 1px solid black;
-            text-align: left;
+            text-align: center;
             vertical-align: middle;
         }
         th {
             background-color: #f2f2f2;
         }
         td {
-			padding:13px;
-         
+            padding: 13px;
         }
-	</style>
+        .imageContainer {
+            margin: 20px auto;
+            width: fit-content;
+        }
+    </style>
 </head>
 <body>
-	<!-- the entire body must be written by student -->
-	<table>
-		<tr>
-			<th style="width:200px">Column 1</th>
-			<th style="width:600px">Column 2</th>
-			<th style="width:200px">Column 3</th>
-		</tr>
-		<tr>
-			<td><img src="https://www.simpleimageresizer.com/_uploads/photos/b7124178/ashu.jpg" alt="Image" width="200"></td>
-			<td style="width:600px">He is strong and smart.</td>
-						<td><img src="https://www.simpleimageresizer.com/_uploads/photos/b7124178/ashu.jpg" alt="Image" width="200"></td>
-		</tr>
-		<tr>
-					<td><img src="https://www.simpleimageresizer.com/_uploads/photos/b7124178/ashu.jpg" width="200" alt="Image"></td>
-		<td style="width:600px">He is strong and smart.</td>
-						<td><img src="https://www.simpleimageresizer.com/_uploads/photos/b7124178/ashu.jpg" width="200" alt="Image"></td>
-		</tr>
-		
-		
-	</table>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    
+    <div class="imageContainer">
+        <table>
+         
+            <tr>
+                <td><img src="https://www.simpleimageresizer.com/_uploads/photos/b7124178/ashu.jpg" alt="Image" width="200"></td>
+                <td style="width:600px">He is strong and smart.</td>
+                <td><img src="https://www.simpleimageresizer.com/_uploads/photos/b7124178/ashu.jpg" alt="Image" width="200"></td>
+            </tr>
+            <tr>
+                <td><img src="https://www.simpleimageresizer.com/_uploads/photos/b7124178/ashu.jpg" width="200" alt="Image"></td>
+                <td style="width:600px">He is strong and smart.</td>
+                <td><img src="https://www.simpleimageresizer.com/_uploads/photos/b7124178/ashu.jpg" width="200" alt="Image"></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
